@@ -1,0 +1,5 @@
+from note_generator import generate_notes, generate_notes_hard, generate_notes_hold
+
+def level1():
+    notes = generate_notes(10, 41, 0)
+    return notes
